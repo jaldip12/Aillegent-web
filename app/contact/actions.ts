@@ -1,5 +1,6 @@
 "use server"
 
+import nodemailer from "nodemailer"
 import { z } from "zod"
 import { site } from "@/lib/site"
 
@@ -15,16 +16,11 @@ const schema = z.object({
   company: z.string().trim().optional().default(""),
   role: z.string().trim().optional().default(""),
   link: z.string().trim().url("Enter a valid URL (including https://).").or(z.literal("")).optional().default(""),
-  achieve: z.string().trim().min(10, "Tell us a little more about what you want to achieve."),
+  achieve: z.string().trim().optional().default(""),
   stage: z.string().trim().optional().default(""),
 })
 
 export async function submitContact(_prev: ContactState, formData: FormData): Promise<ContactState> {
-  // honeypot — bots fill hidden fields; silently accept without sending
-  if ((formData.get("website_hp") as string)?.length) {
-    return { ok: true, message: "Thank you. We have received your message and will get back to you." }
-  }
-
   const parsed = schema.safeParse({
     name: formData.get("name"),
     email: formData.get("email"),
@@ -53,32 +49,43 @@ export async function submitContact(_prev: ContactState, formData: FormData): Pr
     d.role ? `Role: ${d.role}` : null,
     d.link ? `Link: ${d.link}` : null,
     d.stage ? `Stage: ${d.stage}` : null,
-    "",
-    "What they want to achieve:",
-    d.achieve,
+    d.achieve ? "" : null,
+    d.achieve ? "What they want to achieve:" : null,
+    d.achieve ? d.achieve : null,
   ]
     .filter((l) => l !== null)
     .join("\n")
 
   const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, CONTACT_TO } = process.env
 
-  // SMTP not configured yet — accept the submission so the form works in demo,
-  // and record it server-side. Wire real delivery by setting the env vars.
+  // No silent "demo mode" anymore: if the server has no SMTP config, say so plainly.
+  // (On a deployment this means the env vars weren't added, or the site wasn't
+  //  redeployed after adding them, or they were scoped to the wrong environment.)
   if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) {
-    console.info("[contact] SMTP not configured — submission received:\n" + text)
+    console.error("[contact] SMTP env missing on this deployment", {
+      host: !!SMTP_HOST,
+      user: !!SMTP_USER,
+      pass: !!SMTP_PASS,
+    })
     return {
-      ok: true,
-      message: "Thank you. We have received your message and will review the context before getting back to you.",
+      ok: false,
+      message:
+        "Email isn't configured on the server yet (SMTP variables missing on this deployment). Please email us directly at " +
+        site.email +
+        ".",
     }
   }
 
   try {
-    const nodemailer = (await import("nodemailer")).default
     const transporter = nodemailer.createTransport({
       host: SMTP_HOST,
       port: Number(SMTP_PORT || 587),
       secure: Number(SMTP_PORT) === 465,
       auth: { user: SMTP_USER, pass: SMTP_PASS },
+      // fail fast instead of hanging the serverless function
+      connectionTimeout: 10000,
+      greetingTimeout: 8000,
+      socketTimeout: 12000,
     })
 
     await transporter.sendMail({
@@ -94,10 +101,17 @@ export async function submitContact(_prev: ContactState, formData: FormData): Pr
       message: "Thank you. We have received your message and will review the context before getting back to you.",
     }
   } catch (err) {
-    console.error("[contact] send failed:", err)
+    const e = err as { message?: string; code?: string; responseCode?: number }
+    console.error("[contact] send failed:", e?.code, e?.responseCode, e?.message)
+    // TEMPORARY debug detail in the UI so we can see the real reason on the live site.
     return {
       ok: false,
-      message: "Something went wrong sending your message. Please email us directly at " + site.email + ".",
+      message:
+        `Couldn't send your message [${e?.code || "ERR"}${e?.responseCode ? " " + e.responseCode : ""}]: ${
+          e?.message || "unknown error"
+        }. Please email us directly at ` +
+        site.email +
+        ".",
     }
   }
 }

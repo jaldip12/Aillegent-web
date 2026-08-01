@@ -22,16 +22,6 @@ export default function ContactForm() {
   return (
     <div className="form-card" data-animate>
       <form action={formAction} noValidate>
-        {/* honeypot — hidden from users, catches bots */}
-        <input
-          type="text"
-          name="website_hp"
-          tabIndex={-1}
-          autoComplete="off"
-          aria-hidden="true"
-          className="hp-field"
-        />
-
         <div className="field-row">
           <div className="field">
             <label htmlFor="name">Name <span className="req">*</span></label>
@@ -63,8 +53,8 @@ export default function ContactForm() {
         </div>
 
         <div className="field">
-          <label htmlFor="achieve">What are you trying to achieve? <span className="req">*</span></label>
-          <textarea id="achieve" name="achieve" required aria-invalid={!!err.achieve} />
+          <label htmlFor="achieve">What are you trying to achieve?</label>
+          <textarea id="achieve" name="achieve" aria-invalid={!!err.achieve} />
           {err.achieve && <span className="field-err">{err.achieve}</span>}
         </div>
 

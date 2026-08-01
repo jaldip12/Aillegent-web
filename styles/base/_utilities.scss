@@ -34,12 +34,3 @@
 
 // ---- Inline brand-coloured link ----
 .link-brand { color: var(--brand); font-weight: 500; }
-
-// ---- Visually-hidden honeypot field ----
-.hp-field {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-}

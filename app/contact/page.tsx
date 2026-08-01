@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/contact" },
 }
 
+// Nodemailer needs the Node.js runtime (not Edge)
+export const runtime = "nodejs"
+
 export default function ContactPage() {
   return (
     <>
