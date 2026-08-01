@@ -15,7 +15,6 @@ $breakpoints: (
   xxl: 1280px,
 );
 
-
 @function _bp($bp) {
   @if map.has-key($breakpoints, $bp) {
     @return map.get($breakpoints, $bp);
