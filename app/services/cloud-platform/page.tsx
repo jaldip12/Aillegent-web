@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Cloud & Platform Engineering",
   description:
-    "Cloud and platform engineering services — secure deployment, CI/CD, containers, monitoring, and governance for repeatable, production-ready releases.",
+    "Cloud and platform engineering services: secure deployment, CI/CD, containers, monitoring, and governance for repeatable, production-ready releases.",
   alternates: { canonical: "/services/cloud-platform" },
 }
 
@@ -30,7 +30,7 @@ export default function CloudPlatformPage() {
             serviceType: "Cloud & Platform Engineering",
             url: "https://aillegent.com/services/cloud-platform",
             description:
-              "Cloud foundations that make releases repeatable, systems observable, access controlled, and infrastructure cost visible — deployment, CI/CD, containers, monitoring, and governance.",
+              "Cloud foundations that make releases repeatable, systems observable, access controlled, and infrastructure cost visible: deployment, CI/CD, containers, monitoring, and governance.",
             provider: { "@type": "Organization", "@id": "https://aillegent.com/#organization" },
             areaServed: "Worldwide",
           },
@@ -55,7 +55,7 @@ export default function CloudPlatformPage() {
             </h1>
             <p className="lead">
               A production environment should make releases repeatable, systems observable, access controlled, and
-              infrastructure cost visible. We design cloud foundations that support the application — not slow it down.
+              infrastructure cost visible. We design cloud foundations that support the application, not slow it down.
             </p>
           </div>
           <div className="phero-vis" data-animate aria-hidden="true">
@@ -258,7 +258,7 @@ export default function CloudPlatformPage() {
                 <div>
                   <h4>Reliability comes first</h4>
                   <p>
-                    Efficiency should follow observability and sound architecture — not come at the expense of a stable
+                    Efficiency should follow observability and sound architecture, not come at the expense of a stable
                     production platform.
                   </p>
                 </div>

@@ -33,7 +33,7 @@ export default function HomePage() {
               <span className="v">Scale</span> with control.
             </h1>
             <p className="sub" data-animate>
-              Aillegent turns business requirements into dependable digital products — and stays until they run well in
+              Aillegent turns business requirements into dependable digital products, and stays until they run well in
               production.
             </p>
             <div className="hero-actions" data-animate>
@@ -124,7 +124,7 @@ export default function HomePage() {
               Engineered for <span className="grad-text">measurable outcomes</span>
             </h2>
             <p className="lead">
-              We optimise for what a business can actually feel — faster releases, lower run-cost, and reliability that
+              We optimise for what a business can actually feel: faster releases, lower run-cost, and reliability that
               holds under real demand.
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function HomePage() {
           <div className="stat-band" data-animate>
             <div className="stat"><div className="v" data-count="6">0</div><div className="k">Core engineering capabilities</div></div>
             <div className="stat"><div className="v" data-count="3">0</div><div className="k">Products we build &amp; run</div></div>
-            <div className="stat"><div className="v" data-count="4">0</div><div className="k">Industries we serve</div></div>
+            <div className="stat"><div className="v" data-count="3">0</div><div className="k">Industries we serve</div></div>
             <div className="stat"><div className="v" data-count="6">0</div><div className="k">Stage delivery cycle</div></div>
           </div>
 
@@ -187,7 +187,7 @@ export default function HomePage() {
             <h2 className="h2 balance">
               Proof in the <span className="grad-text">outcomes we deliver</span>
             </h2>
-            <p className="lead">What focused engineering changes for the teams we work with — from cloud run-cost to release speed and production-grade AI.</p>
+            <p className="lead">What focused engineering changes for the teams we work with, from cloud run-cost to release speed and production-grade AI.</p>
           </div>
           <div className="case-grid">
             <article className="case" data-animate>
@@ -250,7 +250,7 @@ export default function HomePage() {
               <div className="prod-body">
                 <span className="prod-tag">Photography AI</span>
                 <h3>Eventik</h3>
-                <p>AI photo delivery and complete studio management for event photographers — guests find their photos with a single selfie.</p>
+                <p>AI photo delivery and complete studio management for event photographers: guests find their photos with a single selfie.</p>
                 <Link className="btn-text" href="/products/eventik">Explore Eventik <span className="arw">→</span></Link>
               </div>
             </article>
@@ -268,7 +268,7 @@ export default function HomePage() {
               <div className="prod-body">
                 <span className="prod-tag">Industrial EHS</span>
                 <h3>Permit360</h3>
-                <p>The electronic permit-to-work system for modern plants — configurable permits, approvals, and live visibility.</p>
+                <p>The electronic permit-to-work system for modern plants: configurable permits, approvals, and live visibility.</p>
                 <Link className="btn-text" href="/products/permit360">Explore Permit360 <span className="arw">→</span></Link>
               </div>
             </article>
@@ -285,14 +285,14 @@ export default function HomePage() {
             </h2>
             <p className="lead">
               We work where business processes, data, compliance, reliability, and operational speed all matter. Our
-              approach starts with the domain — not just the technology choice.
+              approach starts with the domain, not just the technology choice.
             </p>
           </div>
           <div className="ind-list" data-animate>
             <Link className="ind-item" href="/industries/finance"><span className="n">01</span><span className="t">Finance</span><span className="arw">→</span></Link>
-            <Link className="ind-item" href="/industries/intellectual-property"><span className="n">02</span><span className="t">Intellectual Property</span><span className="arw">→</span></Link>
-            <Link className="ind-item" href="/industries/advertising-technology"><span className="n">03</span><span className="t">Advertising Technology</span><span className="arw">→</span></Link>
-            <Link className="ind-item" href="/industries/recruitment"><span className="n">04</span><span className="t">Recruitment</span><span className="arw">→</span></Link>
+            {/* Intellectual Property temporarily hidden - restore this card + renumber below to bring it back */}
+            <Link className="ind-item" href="/industries/advertising-technology"><span className="n">02</span><span className="t">Advertising Technology</span><span className="arw">→</span></Link>
+            <Link className="ind-item" href="/industries/recruitment"><span className="n">03</span><span className="t">Recruitment</span><span className="arw">→</span></Link>
           </div>
         </div>
       </section>

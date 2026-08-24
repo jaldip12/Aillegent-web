@@ -6,7 +6,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Permit360",
   description:
-    "Permit360 is an electronic permit-to-work (e-PTW) system for modern plants — configurable permits, approvals, and live visibility for industrial safety.",
+    "Permit360 is an electronic permit-to-work (e-PTW) system for modern plants: configurable permits, approvals, and live visibility for industrial safety.",
   alternates: { canonical: "/products/permit360" },
 }
 
@@ -32,7 +32,7 @@ export default function Permit360Page() {
             operatingSystem: "Web",
             url: "https://aillegent.com/products/permit360",
             description:
-              "Permit360 is the electronic work permit system for modern plants — configurable permits and approval routes, one-click permit-to-work, live dashboards, and a complete audit trail.",
+              "Permit360 is the electronic work permit system for modern plants: configurable permits and approval routes, one-click permit-to-work, live dashboards, and a complete audit trail.",
             publisher: { "@type": "Organization", "@id": "https://aillegent.com/#organization" },
           },
         ]}
@@ -54,10 +54,20 @@ export default function Permit360Page() {
               The electronic work permit system for <span className="grad-text">modern plants</span>
             </h1>
             <p className="lead">
-              One easy-to-use, cloud-based platform that replaces paper permits and email approvals — configure your own
+              One easy-to-use, cloud-based platform that replaces paper permits and email approvals: configure your own
               permits and approval routes, raise and close them in a click, and see every live permit in real time. Built
               for chemical, pharma, and manufacturing plants.
             </p>
+            <div className="phero-cta">
+              <a
+                href="http://permit360.aillegent.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-lg"
+              >
+                Visit Permit360 <span className="arw">↗</span>
+              </a>
+            </div>
           </div>
           <div className="phero-vis" data-animate aria-hidden="true">
             <svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet">
@@ -147,7 +157,7 @@ export default function Permit360Page() {
             <h2 className="h2 balance">
               How a permit moves through <span className="grad-text">Permit360</span>
             </h2>
-            <p className="lead">Five stages, one system — every step recorded, routed, and visible in real time.</p>
+            <p className="lead">Five stages, one system: every step recorded, routed, and visible in real time.</p>
           </div>
           <div className="grid g-3 u-mt-56">
             <article className="card" data-animate>
@@ -192,7 +202,7 @@ export default function Permit360Page() {
               <span className="ck">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4"><path d="M20 6 9 17l-5-5" /></svg>
               </span>
-              <span>Fully configurable permit forms and approval routing — no code, no waiting on IT.</span>
+              <span>Fully configurable permit forms and approval routing, with no code and no waiting on IT.</span>
             </li>
             <li>
               <span className="ck">
@@ -204,7 +214,7 @@ export default function Permit360Page() {
               <span className="ck">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4"><path d="M20 6 9 17l-5-5" /></svg>
               </span>
-              <span>Live dashboards and KPIs — counts, approval turnaround, expiry tracking.</span>
+              <span>Live dashboards and KPIs: counts, approval turnaround, expiry tracking.</span>
             </li>
             <li>
               <span className="ck">
@@ -229,7 +239,7 @@ export default function Permit360Page() {
             <h2 className="h2 balance">
               A permit type for <span className="grad-text">every hazard</span>
             </h2>
-            <p className="lead">Standard high-risk permit types out of the box — plus any custom type your team defines.</p>
+            <p className="lead">Standard high-risk permit types out of the box, plus any custom type your team defines.</p>
           </div>
           <div className="tags u-mt-40" data-animate>
             <span className="tag">Hot work</span>

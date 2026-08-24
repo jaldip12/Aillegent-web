@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Data Engineering",
   description:
-    "Data engineering services — warehousing, pipelines, cleaning, and analytics that make your data dependable, using Pandas, PySpark, NumPy, and modern tooling.",
+    "Data engineering services: warehousing, pipelines, cleaning, and analytics that make your data dependable, using Pandas, PySpark, NumPy, and modern tooling.",
   alternates: { canonical: "/services/data-engineering" },
 }
 
@@ -30,7 +30,7 @@ export default function DataEngineeringPage() {
             serviceType: "Data Engineering",
             url: "https://aillegent.com/services/data-engineering",
             description:
-              "Make your data dependable before you make it intelligent — warehousing, ingestion, cleaning, transformation, statistical analysis, and reporting from Aillegent.",
+              "Make your data dependable before you make it intelligent: warehousing, ingestion, cleaning, transformation, statistical analysis, and reporting from Aillegent.",
             provider: { "@type": "Organization", "@id": "https://aillegent.com/#organization" },
             areaServed: "Worldwide",
           },
@@ -55,7 +55,7 @@ export default function DataEngineeringPage() {
             </h1>
             <p className="lead">
               AI and analytics are only as good as the data underneath them. We gather, clean, structure, and analyse
-              your data — so every model, dashboard, and decision stands on solid ground.
+              your data, so every model, dashboard, and decision stands on solid ground.
             </p>
           </div>
           <div className="phero-vis" data-animate aria-hidden="true">
@@ -155,7 +155,7 @@ export default function DataEngineeringPage() {
               What we <span className="grad-text">deliver</span>
             </h2>
             <p className="lead">
-              From scattered sources to analysis-ready datasets — the full path from raw data to answers people trust.
+              From scattered sources to analysis-ready datasets: the full path from raw data to answers people trust.
             </p>
           </div>
           <div className="grid g-3 u-mt-56">

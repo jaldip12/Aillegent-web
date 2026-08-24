@@ -4,9 +4,9 @@ import Image from "next/image"
 import JsonLd from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
-  title: "Shilp — Cinematic Indian-style Prompt Generation",
+  title: "Shilp: Cinematic Indian-style Prompt Generation",
   description:
-    "Shilp is an AI prompt generator for Indian-style cinematic storytelling — turn an idea, scene, or brand into rich prompts for image and video creation.",
+    "Shilp is an AI prompt generator for Indian-style cinematic storytelling: turn an idea, scene, or brand into rich prompts for image and video creation.",
   alternates: { canonical: "/products/shilp" },
 }
 
@@ -62,7 +62,7 @@ export default function ShilpPage() {
             <Image
               className="shot"
               src="/img/shilp-app.jpg"
-              alt="Shilp — prompt input, creative direction chips, and a generated cinematic prompt"
+              alt="Shilp showing prompt input, creative direction chips, and a generated cinematic prompt"
               width={1500}
               height={1000}
               loading="lazy"

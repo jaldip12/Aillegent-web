@@ -3,7 +3,7 @@ export const site = {
   url: "https://aillegent.com",
   tagline: "Product Engineering, AI, Cloud & Quality",
   description:
-    "Aillegent is a custom software development company — product engineering, applied AI, data, cloud, quality, and cost optimisation, from rapid MVP to production-scale.",
+    "Aillegent is a custom software development company: product engineering, applied AI, data, cloud, quality, and cost optimisation, from rapid MVP to production-scale.",
   email: "info@aillegent.com",
   phone: "+91 90283 21652",
   phoneHref: "+919028321652",
@@ -37,7 +37,8 @@ export const products = [
 
 export const industries = [
   { slug: "finance", title: "Finance" },
-  { slug: "intellectual-property", title: "Intellectual Property" },
+  // temporarily hidden - see app/industries/intellectual-property/page.tsx
+  // { slug: "intellectual-property", title: "Intellectual Property" },
   { slug: "advertising-technology", title: "Advertising Technology" },
   { slug: "recruitment", title: "Recruitment" },
 ] as const

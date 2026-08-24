@@ -15,7 +15,7 @@ export default function MotionProvider({ children }: { children: ReactNode }) {
   const pathname = usePathname()
   const lenisRef = useRef<Lenis | null>(null)
 
-  /* ---------- smooth scroll (Lenis) — init once ---------- */
+  /* ---------- smooth scroll (Lenis) - init once ---------- */
   useEffect(() => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches
     if (reduce) return

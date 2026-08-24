@@ -6,7 +6,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Finance | Industries",
   description:
-    "Custom software for finance teams — bring documents, data, deadlines, and processes into structured, dependable systems built around your domain.",
+    "Custom software for finance teams: bring documents, data, deadlines, and processes into structured, dependable systems built around your domain.",
   alternates: { canonical: "/industries/finance" },
 }
 
@@ -42,7 +42,7 @@ export default function FinanceIndustryPage() {
             </h1>
             <p className="lead">
               From private capital operations to document-heavy processes, we build technology that reads the detail,
-              structures it, and keeps decisions traceable — designed around your operating model.
+              structures it, and keeps decisions traceable, designed around your operating model.
             </p>
           </div>
           <div className="phero-vis phero-vis-img" data-animate aria-hidden="true">
@@ -78,7 +78,7 @@ export default function FinanceIndustryPage() {
               <span className="cn">01</span>
               <h3>Private equity operations</h3>
               <p>
-                Support the operating processes around private equity — from deal-related documentation to structured,
+                Support the operating processes around private equity, from deal-related documentation to structured,
                 reviewable process steps that keep information organised and traceable.
               </p>
             </article>
@@ -111,7 +111,7 @@ export default function FinanceIndustryPage() {
               <span className="cn">04</span>
               <h3>AI-assisted market and trading research</h3>
               <p>
-                Explore how AI can support market and trading research as an analytics and technology capability —
+                Explore how AI can support market and trading research as an analytics and technology capability,
                 helping teams organise information and investigate process ideas.
               </p>
             </article>
@@ -130,7 +130,7 @@ export default function FinanceIndustryPage() {
               <h4>A note on scope and compliance</h4>
               <p>
                 Aillegent makes no performance, investment-return, or financial-advice claims. Any trading-related
-                capability described here is a research, analytics, or technology capability — not financial advice — and
+                capability described here is a research, analytics, or technology capability, not financial advice, and
                 is reviewed against applicable compliance requirements.
               </p>
             </div>
@@ -143,8 +143,8 @@ export default function FinanceIndustryPage() {
         <div className="wrap bridge-inner" data-animate>
           <div>
             <span className="b-kick">Up next</span>
-            <Link className="b-link" href="/industries/intellectual-property">
-              Intellectual Property <span className="arw">→</span>
+            <Link className="b-link" href="/industries/advertising-technology">
+              Advertising Technology <span className="arw">→</span>
             </Link>
           </div>
           <p className="b-cta">

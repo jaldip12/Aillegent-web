@@ -6,7 +6,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Eventik",
   description:
-    "Eventik is AI photo delivery and studio management for event photographers — guests find their photos with a single selfie, and the studio runs from one login.",
+    "Eventik is AI photo delivery and studio management for event photographers: guests find their photos with a single selfie, and the studio runs from one login.",
   alternates: { canonical: "/products/eventik" },
 }
 
@@ -32,7 +32,7 @@ export default function EventikPage() {
             operatingSystem: "Web",
             url: "https://aillegent.com/products/eventik",
             description:
-              "Eventik is the complete platform for event photographers and studios — AI face-matching photo delivery, leads, invoices, packages, portfolio, and analytics in one login.",
+              "Eventik is the complete platform for event photographers and studios: AI face-matching photo delivery, leads, invoices, packages, portfolio, and analytics in one login.",
             publisher: { "@type": "Organization", "@id": "https://aillegent.com/#organization" },
           },
         ]}
@@ -55,9 +55,14 @@ export default function EventikPage() {
             </h1>
             <p className="lead">
               Eventik is the complete platform for event photographers and studios. Upload an event once, and AI
-              face-matching delivers each guest&apos;s photos to their phone in seconds — no sorting, no shared folders, no
+              face-matching delivers each guest&apos;s photos to their phone in seconds: no sorting, no shared folders, no
               endless requests.
             </p>
+            <div className="phero-cta">
+              <a href="https://eventik.ai" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-lg">
+                Visit eventik.ai <span className="arw">↗</span>
+              </a>
+            </div>
           </div>
           <div className="phero-vis phero-vis-img" data-animate>
             {/* real product screenshots (demo data) */}
@@ -82,7 +87,7 @@ export default function EventikPage() {
             <h2 className="h2 balance">
               One login for the <span className="grad-text">entire business</span>
             </h2>
-            <p className="lead">Beyond galleries — Eventik runs the whole studio, from first inquiry to final payment.</p>
+            <p className="lead">Beyond galleries: Eventik runs the whole studio, from first inquiry to final payment.</p>
           </div>
           <div className="grid g-3 u-mt-56">
             <article className="card" data-animate>
@@ -140,7 +145,7 @@ export default function EventikPage() {
                 From the first inquiry to the <span className="grad-text">final delivered photo</span>
               </h2>
               <p className="lead u-mt-18">
-                Eventik handles it all — clients, events, leads, storage, and revenue in one dashboard — so photographers
+                Eventik handles it all: clients, events, leads, storage, and revenue in one dashboard, so photographers
                 can focus on shooting, not admin.
               </p>
             </div>
@@ -148,7 +153,7 @@ export default function EventikPage() {
               <Image
                 className="shot"
                 src="/img/eventik-dash.jpeg"
-                alt="Eventik studio dashboard — clients, events, leads, and storage at a glance"
+                alt="Eventik studio dashboard showing clients, events, leads, and storage at a glance"
                 width={1440}
                 height={1412}
                 loading="lazy"
@@ -171,23 +176,23 @@ export default function EventikPage() {
               <Image
                 className="shot"
                 src="/img/eventik-extra-2.jpeg"
-                alt="Eventik event media manager — photos, videos, and flipbooks for a wedding"
+                alt="Eventik event media manager showing photos, videos, and flipbooks for a wedding"
                 width={1440}
                 height={1024}
                 loading="lazy"
               />
-              <figcaption>Event media, organised — photos, videos, and flipbooks per event.</figcaption>
+              <figcaption>Event media, organised: photos, videos, and flipbooks per event.</figcaption>
             </figure>
             <figure className="shot-fig" data-animate>
               <Image
                 className="shot"
                 src="/img/eventik-extra-1.jpeg"
-                alt="Eventik portfolio website builder — hero, gallery, services, and theme controls"
+                alt="Eventik portfolio website builder with hero, gallery, services, and theme controls"
                 width={1440}
                 height={1222}
                 loading="lazy"
               />
-              <figcaption>A portfolio website you edit yourself — no developer needed.</figcaption>
+              <figcaption>A portfolio website you edit yourself, with no developer needed.</figcaption>
             </figure>
           </div>
         </div>

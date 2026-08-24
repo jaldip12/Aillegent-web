@@ -115,7 +115,7 @@ export default function DeliveryCycle() {
       const apply = () => {
         if (ccNumRef.current) ccNumRef.current.textContent = "Stage " + pad(i + 1) + " / " + pad(N)
         if (ccNameRef.current) ccNameRef.current.textContent = s.name
-        if (cpStepRef.current) cpStepRef.current.textContent = "Stage " + pad(i + 1) + " — " + s.name
+        if (cpStepRef.current) cpStepRef.current.textContent = "Stage " + pad(i + 1) + ": " + s.name
         if (cpTitleRef.current) cpTitleRef.current.textContent = s.name
         if (cpBodyRef.current) cpBodyRef.current.textContent = s.body
         if (cpOutRef.current) cpOutRef.current.textContent = s.out
@@ -215,7 +215,7 @@ export default function DeliveryCycle() {
             </p>
           </div>
           <div className="cycle">
-            <div className="cycle-stage" id="cycleWrap" role="group" aria-label="Delivery cycle — use arrow keys" tabIndex={0} data-animate ref={wrapRef}>
+            <div className="cycle-stage" id="cycleWrap" role="group" aria-label="Delivery cycle, use arrow keys" tabIndex={0} data-animate ref={wrapRef}>
               <svg className="ring-svg" viewBox="0 0 100 100" aria-hidden="true">
                 <defs>
                   <linearGradient id="dg" x1="0" y1="0" x2="1" y2="1">
@@ -234,7 +234,7 @@ export default function DeliveryCycle() {
             </div>
             <div className="cycle-panel" data-animate>
               <div aria-live="polite">
-                <div className="cp-step" id="cpStep" ref={cpStepRef}>Stage 01 — Discover</div>
+                <div className="cp-step" id="cpStep" ref={cpStepRef}>Stage 01: Discover</div>
                 <h3 className="cp-title" id="cpTitle" ref={cpTitleRef}>Discover</h3>
                 <p className="cp-body" id="cpBody" ref={cpBodyRef}>
                   Turn business goals, user needs, and domain context into a clear problem to solve.

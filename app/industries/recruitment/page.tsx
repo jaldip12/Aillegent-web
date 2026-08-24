@@ -6,7 +6,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Recruitment | Industries",
   description:
-    "Custom recruitment software — capture vendor requirements, structure them for review, and support organised, transparent candidate matching in one connected flow.",
+    "Custom recruitment software: capture vendor requirements, structure them for review, and support organised, transparent candidate matching in one connected flow.",
   alternates: { canonical: "/industries/recruitment" },
 }
 

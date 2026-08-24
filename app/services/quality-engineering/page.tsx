@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Quality Engineering",
   description:
-    "Quality engineering and test automation services — automated web, API, and performance testing that gives your team the confidence to release faster.",
+    "Quality engineering and test automation services: automated web, API, and performance testing that gives your team the confidence to release faster.",
   alternates: { canonical: "/services/quality-engineering" },
 }
 
@@ -30,7 +30,7 @@ export default function QualityEngineeringPage() {
             serviceType: "Quality Engineering",
             url: "https://aillegent.com/services/quality-engineering",
             description:
-              "Build quality into the delivery cycle — connecting business scenarios, test environments, UAT, production checks, and automation so teams release with confidence.",
+              "Build quality into the delivery cycle: connecting business scenarios, test environments, UAT, production checks, and automation so teams release with confidence.",
             provider: { "@type": "Organization", "@id": "https://aillegent.com/#organization" },
             areaServed: "Worldwide",
           },
@@ -74,7 +74,7 @@ export default function QualityEngineeringPage() {
               {/* vertical connector line with checks */}
               <path className="v-stroke" data-draw d="M40 74 L40 344" />
 
-              {/* Stage 01 — Business scenario */}
+              {/* Stage 01 - Business scenario */}
               <circle className="v-mint" cx="40" cy="74" r="13" />
               <path className="v-ico-w" d="M34 74 l4 4 l8 -9" />
               <rect className="v-panel" x="72" y="48" width="300" height="56" rx="12" />
@@ -89,7 +89,7 @@ export default function QualityEngineeringPage() {
                 <path className="v-ico" d="M8 12h7M8 16h4" />
               </g>
 
-              {/* Stage 02 — Test environments */}
+              {/* Stage 02 - Test environments */}
               <circle className="v-mint" cx="40" cy="164" r="13" />
               <path className="v-ico-w" d="M34 164 l4 4 l8 -9" />
               <rect className="v-panel" x="72" y="138" width="300" height="56" rx="12" />
@@ -104,7 +104,7 @@ export default function QualityEngineeringPage() {
                 <path className="v-ico" d="m9 12 2 2 4-4" />
               </g>
 
-              {/* Stage 03 — UAT */}
+              {/* Stage 03 - UAT */}
               <circle className="v-mint" cx="40" cy="254" r="13" />
               <path className="v-ico-w" d="M34 254 l4 4 l8 -9" />
               <rect className="v-panel" x="72" y="228" width="300" height="56" rx="12" />
@@ -119,7 +119,7 @@ export default function QualityEngineeringPage() {
                 <circle className="v-ico" cx="12" cy="12" r="9" />
               </g>
 
-              {/* Stage 04 — Production */}
+              {/* Stage 04 - Production */}
               <circle className="v-sky" cx="40" cy="344" r="13" />
               <path className="v-ico-w" d="M34 344 l4 4 l8 -9" />
               <rect className="v-tile" x="72" y="318" width="300" height="56" rx="12" />

@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Applied AI | ML, LLMs & Agentic Automation",
   description:
-    "Applied AI development services — production-grade AI products, custom LLM systems, and agentic automation built to reach real users, not just demos.",
+    "Applied AI development services: production-grade AI products, custom LLM systems, and agentic automation built to reach real users, not just demos.",
   alternates: { canonical: "/services/applied-ai" },
 }
 
@@ -30,7 +30,7 @@ export default function AppliedAIPage() {
             serviceType: "Applied AI",
             url: "https://aillegent.com/services/applied-ai",
             description:
-              "Apply AI where it changes real outcomes — AI products, machine learning, custom LLMs, MLOps, LLMOps, and agentic automation built for practical production use.",
+              "Apply AI where it changes real outcomes: AI products, machine learning, custom LLMs, MLOps, LLMOps, and agentic automation built for practical production use.",
             provider: { "@type": "Organization", "@id": "https://aillegent.com/#organization" },
             areaServed: "Worldwide",
           },
@@ -55,7 +55,7 @@ export default function AppliedAIPage() {
             </h1>
             <p className="lead">
               AI creates value when it is connected to trusted data, product behaviour, human decisions, and production
-              operations. Aillegent builds AI products and AI-enabled systems designed for practical use — not just
+              operations. Aillegent builds AI products and AI-enabled systems designed for practical use, not just
               demonstrations.
             </p>
           </div>

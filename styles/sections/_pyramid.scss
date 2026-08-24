@@ -1,5 +1,5 @@
 // ============================================================
-//  Scroll-pinned brand pyramid — sticky stage builds on scroll
+//  Scroll-pinned brand pyramid - sticky stage builds on scroll
 // ============================================================
 @use '../abstracts/breakpoints' as *;
 
@@ -91,6 +91,10 @@
   fill: #FFFFFF;
   opacity: 0;
   transition: opacity .5s .1s;
+}
+
+.pyr-label--top {
+  font-size: 11px;
 }
 
 .pyr-sub {

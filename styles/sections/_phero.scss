@@ -72,9 +72,18 @@
     color: transparent;
   }
 
-  // inner-page heroes carry no buttons — the header CTA covers contact
+  // inner-page heroes carry no buttons - the header CTA covers contact
   .btn-row {
     display: none;
+  }
+
+  // product heroes with a live platform link opt back in via .phero-cta
+  .phero-cta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 28px;
   }
 
   .btn-ghost {

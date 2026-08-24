@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Cost Optimisation",
   description:
-    "Cloud cost optimisation services — cut delivery, infrastructure, and operations spend with a structured review that surfaces savings that last.",
+    "Cloud cost optimisation services: cut delivery, infrastructure, and operations spend with a structured review that surfaces savings that last.",
   alternates: { canonical: "/services/cost-optimisation" },
 }
 
@@ -30,7 +30,7 @@ export default function CostOptimisationPage() {
             serviceType: "Cost Optimisation",
             url: "https://aillegent.com/services/cost-optimisation",
             description:
-              "Control the cost of building and running your platform — across development practices, team allocation, infrastructure, cloud architecture, monitoring, and performance.",
+              "Control the cost of building and running your platform, across development practices, team allocation, infrastructure, cloud architecture, monitoring, and performance.",
             provider: { "@type": "Organization", "@id": "https://aillegent.com/#organization" },
             areaServed: "Worldwide",
           },
@@ -138,7 +138,7 @@ export default function CostOptimisationPage() {
               Where cost is <span className="grad-text">actually decided</span>
             </h2>
             <p className="lead">
-              Sustainable savings come from two directions at once — how the product is built, and what it takes to run.
+              Sustainable savings come from two directions at once: how the product is built, and what it takes to run.
             </p>
           </div>
           <div className="grid g-2 u-mt-52">

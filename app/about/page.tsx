@@ -7,7 +7,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Aillegent brings product, AI, data, cloud, quality, and cost engineering into one accountable team — specialists who connect product ambition to production reality.",
+    "Aillegent brings product, AI, data, cloud, quality, and cost engineering into one accountable team: specialists who connect product ambition to production reality.",
   alternates: { canonical: "/about" },
 }
 
@@ -34,7 +34,7 @@ export default function AboutPage() {
               Specialists who connect product ambition to <span className="grad-text">production reality</span>
             </h1>
             <p className="lead">
-              Aillegent brings product, AI, data, cloud, quality, and cost thinking into one engineering conversation —
+              Aillegent brings product, AI, data, cloud, quality, and cost thinking into one engineering conversation
               and one accountable team. We move quickly without losing the discipline reliable production systems demand.
             </p>
           </div>
@@ -64,7 +64,7 @@ export default function AboutPage() {
               How work moves from requirement to <span className="grad-text">release</span>
             </h2>
             <p className="lead">
-              Each step carries the context of the last — and our six-stage delivery cycle keeps every decision
+              Each step carries the context of the last and our six stage delivery cycle keeps every decision
               connected. <Link href="/#cycle" className="link-brand">See the cycle in action →</Link>
             </p>
           </div>
@@ -87,8 +87,8 @@ export default function AboutPage() {
               Grow the engagement <span className="grad-text">with the product</span>
             </h2>
             <p className="lead">
-              The same team can meet a product where it is — validating a first idea, building momentum, or running a
-              governed enterprise platform — without losing the context in between.
+              The same team can meet a product where it is validating a first idea, building momentum, or running a
+              governed enterprise platform without losing the context in between.
             </p>
           </div>
           <div className="growth u-mt-56">
@@ -169,7 +169,7 @@ export default function AboutPage() {
                 One team, from first idea to <span className="grad-text">running product</span>
               </h2>
               <p>
-                Bring us the outcome that matters and the constraints around it — we will help define the architecture,
+                Bring us the outcome that matters and the constraints around it we will help define the architecture,
                 technology, and delivery path that fit.
               </p>
               <div className="btn-row u-jc-center">

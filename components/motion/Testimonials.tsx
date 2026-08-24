@@ -21,7 +21,7 @@ const ITEMS: Item[] = [
   },
   {
     quote:
-      "They started with our business problem, then earned every technical decision from there — nothing over-built, nothing left half-finished.",
+      "They started with our business problem, then earned every technical decision from there: nothing over-built, nothing left half-finished.",
   },
   {
     quote:

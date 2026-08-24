@@ -1,4 +1,4 @@
-# Aillegent Website Design & Content Blueprint — v2
+# Aillegent Website Design & Content Blueprint - v2
 
 > v2 (2026-07-19). Supersedes v1. Changes: How We Work + Company merged into **About**; products are now **Shilp, Eventik, Permit360** (A2Z 029 removed; Cloud Services & Cost Optimisation presented under Services only); **Data Engineering** added as a sixth service; site-wide wording pass (see §1 voice rules); visual direction updated to the approved light system.
 
@@ -6,9 +6,9 @@
 
 ### Positioning
 
-**Aillegent is the engineering partner for organisations building, deploying, and optimising intelligent digital products.** We combine product engineering, applied AI, data engineering, cloud infrastructure, quality automation, and cost optimisation — from a rapid MVP to a stable enterprise platform. We also build and run our own products, which is the strongest proof of how we work.
+**Aillegent is the engineering partner for organisations building, deploying, and optimising intelligent digital products.** We combine product engineering, applied AI, data engineering, cloud infrastructure, quality automation, and cost optimisation - from a rapid MVP to a stable enterprise platform. We also build and run our own products, which is the strongest proof of how we work.
 
-### Company facts (verified — from Permit360 deck, July 2026)
+### Company facts (verified - from Permit360 deck, July 2026)
 
 - Founded: 2025 · Headquarters: Gandhinagar, India
 - Email: info@aillegent.com · Phone: +91 90283 21652
@@ -28,7 +28,7 @@ From first product idea to secure production operations, Aillegent turns busines
 - Confident but evidence-led; never invent customer counts, savings, certifications, or performance claims. Placeholder proof must be visibly labelled until verified data replaces it.
 - Outcome-oriented; lead with what a client can achieve, then show the engineering behind it.
 - Precise; prefer "AI-enabled system" over vague claims such as "AI transformation".
-- **Anti-repetition rule:** do not lean on a single word as a crutch. In v1 "workflow" appeared 35+ times; cap it at a handful of uses site-wide and prefer the specific noun — *process, operations, casework, research, decisions, day-to-day work, pipeline*. Watch the same for "requirement", "capability", "production", "optimisation".
+- **Anti-repetition rule:** do not lean on a single word as a crutch. In v1 "workflow" appeared 35+ times; cap it at a handful of uses site-wide and prefer the specific noun - *process, operations, casework, research, decisions, day-to-day work, pipeline*. Watch the same for "requirement", "capability", "production", "optimisation".
 - **No duplicated sections:** each major content block (delivery cycle, growth journey, capability grid, pyramid) lives on exactly one page in its full form; other pages may reference it with one line + link.
 
 ### Global navigation (5 items)
@@ -81,18 +81,18 @@ From first product idea to secure production operations, Aillegent turns busines
 
 ### Visual language
 
-- **Mood:** Premium, minimal, technical, human. Light and airy — not generic "futuristic AI".
-- **Palette (fixed — matches the Aillegent trimark logo):** warm off-white base `#F4F6F1`; deep ink `#0C1320`; brand teal `#0E9E76`; electric mint `#25D79B`; electric blue `#3B7DE0`. Gradients only as accents (headline highlight words, progress arcs, pyramid tiers).
-- **Typography:** Rubik — one family for everything (700/600 display, 400/500 body); IBM Plex Mono only for chart axis labels and cycle stage numbers. (Lora was considered and rejected — serif reads editorial, not engineering.)
-- **Layout:** minimal and open — borderless cards (soft shadow only), hairline dividers instead of boxed strips, generous whitespace. Avoid box-in-box compositions.
-- **No kicker/eyebrow labels** above headings (no "— THE NUMBERS" style mono labels). Headings stand alone.
+- **Mood:** Premium, minimal, technical, human. Light and airy - not generic "futuristic AI".
+- **Palette (fixed - matches the Aillegent trimark logo):** warm off-white base `#F4F6F1`; deep ink `#0C1320`; brand teal `#0E9E76`; electric mint `#25D79B`; electric blue `#3B7DE0`. Gradients only as accents (headline highlight words, progress arcs, pyramid tiers).
+- **Typography:** Rubik - one family for everything (700/600 display, 400/500 body); IBM Plex Mono only for chart axis labels and cycle stage numbers. (Lora was considered and rejected - serif reads editorial, not engineering.)
+- **Layout:** minimal and open - borderless cards (soft shadow only), hairline dividers instead of boxed strips, generous whitespace. Avoid box-in-box compositions.
+- **No kicker/eyebrow labels** above headings (no "- THE NUMBERS" style mono labels). Headings stand alone.
 - **Hero variety (no template sameness):** Home = full-viewport headline over a slow aurora gradient field (three soft brand-light blooms) with a faint engineering grid; overview pages (Services, Products, Industries, About, Contact) = centered, visual-free heroes; detail pages = left copy + right light visual card (each visual unique and meaningful to the page).
 - **Imagery:** real product screenshots for Eventik/Permit360/Shilp when supplied; otherwise light, on-palette illustrative visuals. No stock office photography. No fake screenshots presented as real.
 
 ### Motion principles
 
-- Motion shows progress, connection, or state change — never decorates idle space. No infinite decorative loops.
-- Engine: anime.js reveals + Lenis smooth scroll. No WebGL/Three.js — the hero aurora is pure CSS.
+- Motion shows progress, connection, or state change - never decorates idle space. No infinite decorative loops.
+- Engine: anime.js reveals + Lenis smooth scroll. No WebGL/Three.js - the hero aurora is pure CSS.
 - **Scroll-pinned signature sections** (screen stays fixed, visual advances with scroll): the delivery cycle (Home) and the brand pyramid (About). Tuned so a normal scroll completes them in a few seconds; on mobile and reduced-motion they collapse to static/auto-advancing sections.
 - Respect prefers-reduced-motion throughout; identical information without animation.
 
@@ -105,7 +105,7 @@ From first product idea to secure production operations, Aillegent turns busines
 
 ### Button & CTA discipline (site-wide rules)
 
-1. The header CTA ("Start a conversation") is the ONE persistent contact button — it never repeats as a second pill in the same viewport.
+1. The header CTA ("Start a conversation") is the ONE persistent contact button - it never repeats as a second pill in the same viewport.
 2. Inner-page heroes carry ZERO buttons; the Home hero carries one primary button + one quiet text link.
 3. Cards use text links ("Explore →"), never pill buttons.
 4. Two ending models: **overview pages** (Home, About, Services, Products, Industries) end with ONE unique full CTA band (one button, page-specific label); **detail pages** end with a slim "Up next →" bridge that chains to the next related page + one small text CTA to contact.
@@ -115,38 +115,38 @@ From first product idea to secure production operations, Aillegent turns busines
 
 ---
 
-## 4. Home page — /
+## 4. Home page - /
 
 ### Goal
 
-Make it immediately clear that Aillegent can build a new product, add AI, deploy it properly, test it thoroughly, keep it efficient — and that we prove it by running products of our own.
+Make it immediately clear that Aillegent can build a new product, add AI, deploy it properly, test it thoroughly, keep it efficient - and that we prove it by running products of our own.
 
 ### SEO
 
 - **Title:** Aillegent | Product Engineering, AI, Data, Cloud & Quality
-- **Description:** Build, deploy, test, and optimise intelligent digital products with Aillegent — from rapid MVP to enterprise-scale production.
+- **Description:** Build, deploy, test, and optimise intelligent digital products with Aillegent - from rapid MVP to enterprise-scale production.
 
-### Section 1 — Hero (full light, constellation background)
+### Section 1 - Hero (full light, constellation background)
 
 **H1:** Build the product. Deploy with confidence. Scale with control.
 
-**Body copy (short — the cards below carry the detail):**
-Aillegent turns business requirements into dependable digital products — and stays until they run well in production.
+**Body copy (short - the cards below carry the detail):**
+Aillegent turns business requirements into dependable digital products - and stays until they run well in production.
 
 **Primary CTA (button):** Start a conversation
 **Secondary (quiet text link, scrolls down):** Explore our capabilities ↓
 
-No eyebrow line, no chip row, no second pill button — the headline carries the hero, over a slow aurora gradient field that keeps the text zone clean.
+No eyebrow line, no chip row, no second pill button - the headline carries the hero, over a slow aurora gradient field that keeps the text zone clean.
 
-### Section 2 — Tech marquee
+### Section 2 - Tech marquee
 
-"The stack we build on" — single scrolling line of honest technologies (Java, Node.js, Python, React, Next.js, TypeScript, PostgreSQL, AWS, Docker, Kubernetes, Terraform, Kafka, Pandas, PySpark, TensorFlow, PyTorch, LangChain, GraphQL).
+"The stack we build on" - single scrolling line of honest technologies (Java, Node.js, Python, React, Next.js, TypeScript, PostgreSQL, AWS, Docker, Kubernetes, Terraform, Kafka, Pandas, PySpark, TensorFlow, PyTorch, LangChain, GraphQL).
 
-### Section 3 — Capabilities (6, short teaser versions)
+### Section 3 - Capabilities (6, short teaser versions)
 
 **Heading:** One partner across the product lifecycle
 
-Six cards, one line each (full descriptions live on /services — do not duplicate them here):
+Six cards, one line each (full descriptions live on /services - do not duplicate them here):
 
 | # | Capability | Teaser line |
 |---|---|---|
@@ -159,12 +159,12 @@ Six cards, one line each (full descriptions live on /services — do not duplica
 
 **CTA:** View all services
 
-### Section 4 — Outcomes / data
+### Section 4 - Outcomes / data
 
 **Heading:** Engineered for measurable outcomes
 Count-up stat band + two light charts. All figures visibly labelled "Illustrative" until replaced by verified metrics. Update the "core capabilities" stat to **6**.
 
-### Section 5 — Delivery cycle (scroll-pinned signature)
+### Section 5 - Delivery cycle (scroll-pinned signature)
 
 **Heading:** From requirement to reliable production
 **Intro:** Good delivery is not a handoff from discovery to development. It is a connected cycle that keeps business context, architecture, quality, cloud operations, and cost decisions aligned.
@@ -178,12 +178,12 @@ Count-up stat band + two light charts. All figures visibly labelled "Illustrativ
 | Validate | Move from business scenarios through test environments and UAT to production with automation and performance testing. | Verified, scalable experience |
 | Optimise | Monitor reliability, performance, and cost; feed findings into the next product decision. | Stable growth with controlled spend |
 
-### Section 6 — Case studies (placeholder slots)
+### Section 6 - Case studies (placeholder slots)
 
 **Heading:** Proof, ready for when it's yours to show
-Three metric cards with thematic images (cloud cost ↓, faster releases, AI automation) — clearly labelled placeholders until real engagements replace them.
+Three metric cards with thematic images (cloud cost ↓, faster releases, AI automation) - clearly labelled placeholders until real engagements replace them.
 
-### Section 7 — Built by Aillegent (own products)
+### Section 7 - Built by Aillegent (own products)
 
 **Heading:** Products we build, own, and run
 
@@ -193,20 +193,20 @@ Three metric cards with thematic images (cloud cost ↓, faster releases, AI aut
 | Eventik | AI photo delivery and complete studio management for event photographers. | Explore Eventik |
 | Permit360 | The electronic permit-to-work system for modern industrial plants. | Explore Permit360 |
 
-(Cloud Services and Cost Optimisation are services — they appear on /services only.)
+(Cloud Services and Cost Optimisation are services - they appear on /services only.)
 
-### Section 8 — Industries
+### Section 8 - Industries
 
 **Heading:** Engineering shaped by domain understanding
-**Body:** We work where business processes, data, compliance, reliability, and operational speed all matter. Our approach starts with the domain — not just the technology choice.
+**Body:** We work where business processes, data, compliance, reliability, and operational speed all matter. Our approach starts with the domain - not just the technology choice.
 List: Finance · Intellectual Property · Advertising Technology · Recruitment
 **CTA:** Explore industries
 
-### Section 9 — Testimonials + trust strip
+### Section 9 - Testimonials + trust strip
 
-Rotating quotes and certification/rating tiles — all visibly labelled as samples/targets until verified.
+Rotating quotes and certification/rating tiles - all visibly labelled as samples/targets until verified.
 
-### Section 10 — Final CTA
+### Section 10 - Final CTA
 
 **Heading:** Have a product problem worth solving?
 **Body:** Whether you are validating an MVP, improving an existing platform, deploying AI, or bringing a production environment under control, we can help define the next practical step.
@@ -214,7 +214,7 @@ Rotating quotes and certification/rating tiles — all visibly labelled as sampl
 
 ---
 
-## 5. Services overview — /services
+## 5. Services overview - /services
 
 ### Hero (centered)
 
@@ -223,29 +223,29 @@ Rotating quotes and certification/rating tiles — all visibly labelled as sampl
 **Body copy:**
 Choose a focused engagement or combine capabilities across the whole lifecycle. Aillegent connects product strategy, software delivery, AI, data, cloud operations, quality, and cost control into one delivery model.
 
-### Service groups (6 — full descriptions live here)
+### Service groups (6 - full descriptions live here)
 
-1. **Product Engineering** — Custom product development, frontend and backend engineering, APIs, architecture, and modernisation.
-2. **Applied AI** — AI product design, machine learning, deep learning, custom LLMs, fine-tuning, MLOps, LLMOps, and agentic automation.
-3. **Data Engineering** — Data warehousing, gathering and ingestion, cleaning and preparation, manipulation, statistical analysis, and visualisation.
-4. **Cloud & Platform Engineering** — Deployment, CI/CD, Docker, ECS and container platforms, security, governance, monitoring, storage, databases, and infrastructure.
-5. **Quality Engineering** — Business scenario breakdown, test environments, UAT, production confidence, web automation, API automation, and performance testing.
-6. **Cost Optimisation** — Delivery efficiency, team and resource planning, infrastructure usage, monitoring, and cost-aware architecture.
+1. **Product Engineering** - Custom product development, frontend and backend engineering, APIs, architecture, and modernisation.
+2. **Applied AI** - AI product design, machine learning, deep learning, custom LLMs, fine-tuning, MLOps, LLMOps, and agentic automation.
+3. **Data Engineering** - Data warehousing, gathering and ingestion, cleaning and preparation, manipulation, statistical analysis, and visualisation.
+4. **Cloud & Platform Engineering** - Deployment, CI/CD, Docker, ECS and container platforms, security, governance, monitoring, storage, databases, and infrastructure.
+5. **Quality Engineering** - Business scenario breakdown, test environments, UAT, production confidence, web automation, API automation, and performance testing.
+6. **Cost Optimisation** - Delivery efficiency, team and resource planning, infrastructure usage, monitoring, and cost-aware architecture.
 
 ### Cross-service section
 
 **Heading:** Designed around your business requirement
-**Body:** The right solution may be a focused monolith, a microservice platform, a domain-driven design, an event-driven system, or a distributed-transaction architecture. We select the approach based on operational needs, product maturity, team capability, and future scale — not trend alone.
+**Body:** The right solution may be a focused monolith, a microservice platform, a domain-driven design, an event-driven system, or a distributed-transaction architecture. We select the approach based on operational needs, product maturity, team capability, and future scale - not trend alone.
 **CTA:** Let's figure it out together
 
 ---
 
-## 6. Product Engineering — /services/product-engineering
+## 6. Product Engineering - /services/product-engineering
 
 ### Hero
 
 **H1:** Turn product requirements into software people can rely on
-**Body:** We design and build custom products from the first requirement through delivery, release, and iteration — combining business understanding, technical architecture, documentation, frontend and backend development, and production readiness.
+**Body:** We design and build custom products from the first requirement through delivery, release, and iteration - combining business understanding, technical architecture, documentation, frontend and backend development, and production readiness.
 
 ### What we deliver
 
@@ -276,14 +276,14 @@ Java · Node.js · Python · frontend development · backend development
 
 ---
 
-## 7. Applied AI — /services/applied-ai
+## 7. Applied AI - /services/applied-ai
 
-*(Data engineering items moved to §8 — no overlap between the two pages.)*
+*(Data engineering items moved to §8 - no overlap between the two pages.)*
 
 ### Hero
 
 **H1:** Apply AI where it changes real outcomes
-**Body:** AI creates value when it is connected to trusted data, product behaviour, human decisions, and production operations. Aillegent builds AI products and AI-enabled systems designed for practical use — not just demonstrations.
+**Body:** AI creates value when it is connected to trusted data, product behaviour, human decisions, and production operations. Aillegent builds AI products and AI-enabled systems designed for practical use - not just demonstrations.
 
 ### Core capabilities
 
@@ -308,27 +308,27 @@ Java · Node.js · Python · frontend development · backend development
 
 ---
 
-## 8. Data Engineering — /services/data-engineering  *(new)*
+## 8. Data Engineering - /services/data-engineering  *(new)*
 
 ### Hero
 
 **H1:** Make your data dependable before you make it intelligent
-**Body:** AI and analytics are only as good as the data underneath them. We gather, clean, structure, and analyse your data — so every model, dashboard, and decision stands on solid ground.
+**Body:** AI and analytics are only as good as the data underneath them. We gather, clean, structure, and analyse your data - so every model, dashboard, and decision stands on solid ground.
 
 ### What we deliver
 
-- Data warehousing — a single, structured home for your business data
-- Data gathering and ingestion — bringing scattered sources into one reliable flow
-- Data cleaning and preparation — accurate, consistent, analysis-ready datasets
-- Data manipulation and transformation — reshaping data for the questions you ask
-- Statistical analysis — honest answers about what the numbers actually say
-- Visualisation and reporting — charts and dashboards people actually read
+- Data warehousing - a single, structured home for your business data
+- Data gathering and ingestion - bringing scattered sources into one reliable flow
+- Data cleaning and preparation - accurate, consistent, analysis-ready datasets
+- Data manipulation and transformation - reshaping data for the questions you ask
+- Statistical analysis - honest answers about what the numbers actually say
+- Visualisation and reporting - charts and dashboards people actually read
 
 ### Technology section
 
 Python · Pandas · PySpark · NumPy · Matplotlib · Seaborn
 
-*(Note: pyplot is Matplotlib's plotting module — never list it as a separate tool.)*
+*(Note: pyplot is Matplotlib's plotting module - never list it as a separate tool.)*
 
 ### Cross-link section
 
@@ -339,12 +339,12 @@ Python · Pandas · PySpark · NumPy · Matplotlib · Seaborn
 
 ---
 
-## 9. Cloud & Platform Engineering — /services/cloud-platform
+## 9. Cloud & Platform Engineering - /services/cloud-platform
 
 ### Hero
 
 **H1:** Make production operations a product capability
-**Body:** A production environment should make releases repeatable, systems observable, access controlled, and infrastructure cost visible. We design cloud foundations that support the application — not slow it down.
+**Body:** A production environment should make releases repeatable, systems observable, access controlled, and infrastructure cost visible. We design cloud foundations that support the application - not slow it down.
 
 ### Cloud services
 
@@ -368,7 +368,7 @@ Python · Pandas · PySpark · NumPy · Matplotlib · Seaborn
 
 ---
 
-## 10. Quality Engineering — /services/quality-engineering
+## 10. Quality Engineering - /services/quality-engineering
 
 ### Hero
 
@@ -377,19 +377,19 @@ Python · Pandas · PySpark · NumPy · Matplotlib · Seaborn
 
 ### Quality cycle
 
-1. **Business requirement scenario breakdown** — Convert real business needs into clear, testable scenarios.
-2. **Feature-to-scenario mapping** — Ensure each product feature has meaningful coverage.
-3. **Testing environment → UAT → production** — A disciplined path from internal testing to user validation and live release.
-4. **Integrated automation** — One-click automation for integrated microservice testing where appropriate.
-5. **Web automation testing** — Production-scale automated browser testing for critical user journeys.
-6. **API testing automation** — Verify service contracts, integrations, and backend behaviour.
-7. **Performance testing** — Understand how the platform behaves under realistic demand.
+1. **Business requirement scenario breakdown** - Convert real business needs into clear, testable scenarios.
+2. **Feature-to-scenario mapping** - Ensure each product feature has meaningful coverage.
+3. **Testing environment → UAT → production** - A disciplined path from internal testing to user validation and live release.
+4. **Integrated automation** - One-click automation for integrated microservice testing where appropriate.
+5. **Web automation testing** - Production-scale automated browser testing for critical user journeys.
+6. **API testing automation** - Verify service contracts, integrations, and backend behaviour.
+7. **Performance testing** - Understand how the platform behaves under realistic demand.
 
 **CTA:** Strengthen your release confidence
 
 ---
 
-## 11. Cost Optimisation — /services/cost-optimisation
+## 11. Cost Optimisation - /services/cost-optimisation
 
 ### Hero
 
@@ -407,14 +407,14 @@ Python · Pandas · PySpark · NumPy · Matplotlib · Seaborn
 
 ---
 
-## 12. Products overview — /products
+## 12. Products overview - /products
 
 *(Own products only. Cloud Services and Cost Optimisation live under Services.)*
 
 ### Hero (centered)
 
 **H1:** Software we build, own, and run
-**Body:** Alongside client engineering, Aillegent builds its own products — the clearest proof of how we design, ship, and operate software in production.
+**Body:** Alongside client engineering, Aillegent builds its own products - the clearest proof of how we design, ship, and operate software in production.
 
 ### Product cards (3)
 
@@ -427,18 +427,18 @@ Python · Pandas · PySpark · NumPy · Matplotlib · Seaborn
 #### Eventik
 
 **Headline:** AI photo delivery and studio management, in one place
-**Copy:** Eventik is the complete platform for event photographers and studios — guests find their own photos with a single selfie, and the business runs from one login.
+**Copy:** Eventik is the complete platform for event photographers and studios - guests find their own photos with a single selfie, and the business runs from one login.
 **CTA:** Explore Eventik
 
 #### Permit360
 
 **Headline:** The electronic work permit system for modern plants
-**Copy:** Permit360 replaces paper permits and email approvals with one cloud-based, auditable permit-to-work platform — built for chemical, pharma, and manufacturing sites.
+**Copy:** Permit360 replaces paper permits and email approvals with one cloud-based, auditable permit-to-work platform - built for chemical, pharma, and manufacturing sites.
 **CTA:** Explore Permit360
 
 ---
 
-## 13. Shilp product page — /products/shilp
+## 13. Shilp product page - /products/shilp
 
 ### Hero
 
@@ -463,38 +463,38 @@ Python · Pandas · PySpark · NumPy · Matplotlib · Seaborn
 
 ---
 
-## 14. Eventik product page — /products/eventik  *(new)*
+## 14. Eventik product page - /products/eventik  *(new)*
 
 ### Hero
 
 **H1:** Every guest finds their photos with a single selfie
-**Body:** Eventik is the complete platform for event photographers and studios. Upload an event once, and AI face-matching delivers each guest's photos to their phone in seconds — no sorting, no shared folders, no endless requests.
+**Body:** Eventik is the complete platform for event photographers and studios. Upload an event once, and AI face-matching delivers each guest's photos to their phone in seconds - no sorting, no shared folders, no endless requests.
 
-### Beyond galleries — run the whole studio
+### Beyond galleries - run the whole studio
 
 **Heading:** One login for the entire business
 
-- **AI photo delivery** — guests take a selfie and instantly receive their own photos.
-- **Leads & clients** — manage inquiries and client relationships in one place.
-- **Estimates & invoices** — send GST-ready estimates and invoices without extra tools.
-- **Service packages** — build reusable packages for faster, consistent quoting.
-- **Portfolio website** — showcase your work with a polished site, no developer needed.
-- **Business analytics** — revenue, pending payments, and growth at a glance.
+- **AI photo delivery** - guests take a selfie and instantly receive their own photos.
+- **Leads & clients** - manage inquiries and client relationships in one place.
+- **Estimates & invoices** - send GST-ready estimates and invoices without extra tools.
+- **Service packages** - build reusable packages for faster, consistent quoting.
+- **Portfolio website** - showcase your work with a polished site, no developer needed.
+- **Business analytics** - revenue, pending payments, and growth at a glance.
 
 ### Closing line
 
-From the first inquiry to the final delivered photo, Eventik handles it all — so photographers can focus on shooting, not admin.
+From the first inquiry to the final delivered photo, Eventik handles it all - so photographers can focus on shooting, not admin.
 
 **CTA:** Explore Eventik
 
 ---
 
-## 15. Permit360 product page — /products/permit360  *(new)*
+## 15. Permit360 product page - /products/permit360  *(new)*
 
 ### Hero
 
 **H1:** The electronic work permit system for modern plants
-**Body:** One easy-to-use, cloud-based platform that replaces paper permits and email approvals — configure your own permits and approval routes, raise and close them in a click, and see every live permit in real time. Built for chemical, pharma, and manufacturing plants.
+**Body:** One easy-to-use, cloud-based platform that replaces paper permits and email approvals - configure your own permits and approval routes, raise and close them in a click, and see every live permit in real time. Built for chemical, pharma, and manufacturing plants.
 
 ### The problem it solves
 
@@ -502,29 +502,29 @@ Paper permits leave EHS teams without a defensible record: scattered and unaudit
 
 ### How a permit moves through Permit360
 
-1. **Request** — raise from a template in a click; fields auto-fill and autosave.
-2. **Approve** — routed by role, level, and conditions you define.
-3. **Activate** — issued with a validity window and a signed PDF.
-4. **Work** — monitored live; suspend or extend as needed.
-5. **Close** — signed off with a closure PDF; everyone notified.
+1. **Request** - raise from a template in a click; fields auto-fill and autosave.
+2. **Approve** - routed by role, level, and conditions you define.
+3. **Activate** - issued with a validity window and a signed PDF.
+4. **Work** - monitored live; suspend or extend as needed.
+5. **Close** - signed off with a closure PDF; everyone notified.
 
 ### Why teams choose it
 
-- Fully configurable permit forms and approval routing — no code, no waiting on IT.
+- Fully configurable permit forms and approval routing - no code, no waiting on IT.
 - One-click permit-to-work from a single screen.
-- Live dashboards and KPIs — counts, approval turnaround, expiry tracking.
+- Live dashboards and KPIs - counts, approval turnaround, expiry tracking.
 - Web, mobile, and plant-floor kiosk; cloud or on-premise.
 - Complete audit trail, per-company data isolation, automatic backup.
 
 ### Permit types
 
-Hot work · Cold work · Confined space entry · Work at height · Electrical (LOTO) · Excavation · Radiography · Composite — plus any custom type your team defines.
+Hot work · Cold work · Confined space entry · Work at height · Electrical (LOTO) · Excavation · Radiography · Composite - plus any custom type your team defines.
 
 **CTA:** Explore Permit360
 
 ---
 
-## 16. Industries overview — /industries
+## 16. Industries overview - /industries
 
 ### Hero (centered)
 
@@ -539,7 +539,7 @@ Finance · Intellectual Property · Advertising Technology · Recruitment
 
 ---
 
-## 17. Finance — /industries/finance
+## 17. Finance - /industries/finance
 
 ### Hero
 
@@ -552,13 +552,13 @@ Finance · Intellectual Property · Advertising Technology · Recruitment
 - Finance document intelligence using AI
 - AI-assisted market and trading research
 
-### Important content note (unchanged — compliance)
+### Important content note (unchanged - compliance)
 
 Do not make performance, investment-return, or financial-advice claims. Any trading-related capability must be described as research, analytics, or technology capability and reviewed for applicable compliance requirements.
 
 ---
 
-## 18. Intellectual Property — /industries/intellectual-property
+## 18. Intellectual Property - /industries/intellectual-property
 
 ### Hero
 
@@ -582,7 +582,7 @@ Create a connected operating view across people, documents, deadlines, communica
 
 ---
 
-## 19. Advertising Technology — /industries/advertising-technology
+## 19. Advertising Technology - /industries/advertising-technology
 
 ### Hero
 
@@ -602,7 +602,7 @@ Give marketing and operations teams a clearer view of campaign activity, perform
 
 ---
 
-## 20. Recruitment — /industries/recruitment
+## 20. Recruitment - /industries/recruitment
 
 ### Hero
 
@@ -618,26 +618,26 @@ Build tools that capture the vendor requirement, structure it for review, and su
 
 ---
 
-## 21. About — /about  *(merges How We Work + Company)*
+## 21. About - /about  *(merges How We Work + Company)*
 
 ### Hero (centered)
 
 **H1:** Specialists who connect product ambition to production reality
-**Body:** Aillegent brings product, AI, data, cloud, quality, and cost thinking into one engineering conversation — and one accountable team. We move quickly without losing the discipline reliable production systems demand.
+**Body:** Aillegent brings product, AI, data, cloud, quality, and cost thinking into one engineering conversation - and one accountable team. We move quickly without losing the discipline reliable production systems demand.
 
-### Section 1 — How we're built (scroll-pinned pyramid — signature)
+### Section 1 - How we're built (scroll-pinned pyramid - signature)
 
 Three tiers, told bottom-up:
 
 | Tier | Label | Copy |
 |---|---|---|
 | Top | Product-led thinking | We start with the outcome and the user, then design the smallest thing that actually moves the business. |
-| Middle | Enterprise-grade execution | Delivery maturity, platform partnerships, and compliance thinking — so it holds up at scale and in production. |
-| Base | Engineering-first culture | Modern capabilities, lean hands-on teams, and engineering DNA that ships — and keeps shipping. |
+| Middle | Enterprise-grade execution | Delivery maturity, platform partnerships, and compliance thinking - so it holds up at scale and in production. |
+| Base | Engineering-first culture | Modern capabilities, lean hands-on teams, and engineering DNA that ships - and keeps shipping. |
 
-### Section 2 — How we work (the working relationship)
+### Section 2 - How we work (the working relationship)
 
-One line referencing the Home delivery cycle ("Our six-stage delivery cycle keeps every step connected — see it in action on the home page"), then the six working steps:
+One line referencing the Home delivery cycle ("Our six-stage delivery cycle keeps every step connected - see it in action on the home page"), then the six working steps:
 
 1. Requirement and domain analysis
 2. Solution and architecture
@@ -646,7 +646,7 @@ One line referencing the Home delivery cycle ("Our six-stage delivery cycle keep
 5. Cloud infrastructure
 6. Testing and scalable production
 
-### Section 3 — Grow with the product (client lifecycle)
+### Section 3 - Grow with the product (client lifecycle)
 
 | Phase | What Aillegent supports |
 |---|---|
@@ -654,11 +654,11 @@ One line referencing the Home delivery cycle ("Our six-stage delivery cycle keep
 | Startup Growth | Feature growth, scalable systems, AI capability, automation, cloud foundations, and better engineering rhythms. |
 | Enterprise Production | Deployment support, stabilisation, monitoring, governance, performance, reliability, and cost optimisation. |
 
-### Section 4 — Technical expertise
+### Section 4 - Technical expertise
 
 Java · Node.js · Python · Frontend and backend development · Data engineering · Data science · AI cost optimisation · Cloud and infrastructure engineering · Quality automation and performance engineering
 
-### Section 5 — Team approach
+### Section 5 - Team approach
 
 **Heading:** Start with the business problem, then earn the technical complexity
 **Body:** We begin with requirements, domain context, system constraints, and the outcome that matters. The architecture, technology choices, automation, and operational model follow from that work.
@@ -674,11 +674,11 @@ Only verified team bios, leadership profiles, hiring information, certifications
 
 ---
 
-## 22. Contact — /contact
+## 22. Contact - /contact
 
 ### Hero (centered)
 
-**H1:** Tell us what you are building — or what is holding it back
+**H1:** Tell us what you are building - or what is holding it back
 **Body:** Share the product, AI opportunity, platform challenge, or delivery bottleneck you want to improve. We will help identify a practical next step.
 
 ### Contact details (verified)
@@ -716,7 +716,7 @@ Start a conversation · Let's figure it out together · Explore an AI use case �
 - Unverified performance or savings figures presented as real
 - Generic claims such as "end-to-end digital transformation"
 - Long raw technology lists above the fold
-- **Overusing "workflow"** — prefer the specific noun (process, operations, casework, research, decisions, pipeline)
+- **Overusing "workflow"** - prefer the specific noun (process, operations, casework, research, decisions, pipeline)
 - Repeating a full content block on more than one page
 
 ---
@@ -728,7 +728,7 @@ Before publishing, collect:
 1. Aillegent logo files and any additional brand rules (palette and type are fixed above).
 2. Social profile links (email, phone, and location are confirmed in §1).
 3. Product screenshots or approved demo visuals for **Shilp, Eventik, and Permit360**.
-4. Verified case studies, customer approvals, testimonials, certifications, and partner information — swap out every "Illustrative/Placeholder" label.
+4. Verified case studies, customer approvals, testimonials, certifications, and partner information - swap out every "Illustrative/Placeholder" label.
 5. Privacy, legal, and cookie-policy text.
 6. Contact-form destination and CRM/email routing.
 7. Analytics, consent, and SEO requirements.

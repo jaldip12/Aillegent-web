@@ -41,7 +41,7 @@ export async function submitContact(_prev: ContactState, formData: FormData): Pr
   }
 
   const d = parsed.data
-  const subject = `New enquiry — ${d.name}${d.company ? ` (${d.company})` : ""}`
+  const subject = `New enquiry: ${d.name}${d.company ? ` (${d.company})` : ""}`
   const text = [
     `Name: ${d.name}`,
     `Email: ${d.email}`,
@@ -59,7 +59,7 @@ export async function submitContact(_prev: ContactState, formData: FormData): Pr
   const { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, CONTACT_TO } = process.env
 
   // No silent "demo mode" anymore: if the server has no SMTP config, say so plainly.
-  // (On a deployment this means the env vars weren't added, or the site wasn't
+  // (On a deployment this means the env vars were not added, or the site was not
   //  redeployed after adding them, or they were scoped to the wrong environment.)
   if (!SMTP_HOST || !SMTP_USER || !SMTP_PASS) {
     console.error("[contact] SMTP env missing on this deployment", {
@@ -70,7 +70,7 @@ export async function submitContact(_prev: ContactState, formData: FormData): Pr
     return {
       ok: false,
       message:
-        "Email isn't configured on the server yet (SMTP variables missing on this deployment). Please email us directly at " +
+        "Email is not configured on the server yet (SMTP variables missing on this deployment). Please email us directly at " +
         site.email +
         ".",
     }
@@ -107,7 +107,7 @@ export async function submitContact(_prev: ContactState, formData: FormData): Pr
     return {
       ok: false,
       message:
-        `Couldn't send your message [${e?.code || "ERR"}${e?.responseCode ? " " + e.responseCode : ""}]: ${
+        `Could not send your message [${e?.code || "ERR"}${e?.responseCode ? " " + e.responseCode : ""}]: ${
           e?.message || "unknown error"
         }. Please email us directly at ` +
         site.email +

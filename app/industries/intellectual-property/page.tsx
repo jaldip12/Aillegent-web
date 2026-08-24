@@ -1,16 +1,20 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
+import { notFound } from "next/navigation"
 import JsonLd from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
   title: "Intellectual Property | Industries",
   description:
-    "Custom software for intellectual property — filing, deadlines, correspondence, and patent lifecycle management in one connected, dependable operating view.",
+    "Custom software for intellectual property: filing, deadlines, correspondence, and patent lifecycle management in one connected, dependable operating view.",
   alternates: { canonical: "/industries/intellectual-property" },
+  robots: { index: false, follow: false },
 }
 
+// Temporarily disabled - remove this call to bring the page back
 export default function IntellectualPropertyIndustryPage() {
+  notFound()
   return (
     <>
       <JsonLd
@@ -108,7 +112,7 @@ export default function IntellectualPropertyIndustryPage() {
               <h3>Deadlines and fees</h3>
               <p>
                 Keep critical dates visible with timely alerts, and bring the same order to fees and payment-related
-                steps — traceable, and never missed.
+                steps, traceable and never missed.
               </p>
             </article>
             <article className="card" data-animate>

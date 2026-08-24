@@ -1,5 +1,5 @@
 // ============================================================
-//  Misc sections — stats, charts, case studies, testimonials,
+//  Misc sections - stats, charts, case studies, testimonials,
 //  trust, industries, split visuals, deliver, process, tags,
 //  workflow, spec rows, screenshots + banner images.
 // ============================================================
@@ -871,7 +871,7 @@ html.js .m-pulse {
 @include mq(1000px) {
   .charts { grid-template-columns: 1fr; }
 
-  // stacked charts go full-width — cap the SVGs so they don't balloon
+  // stacked charts go full-width - cap the SVGs so they don't balloon
   .chart-card svg {
     display: block;
     margin-inline: auto;

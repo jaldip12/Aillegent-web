@@ -6,9 +6,9 @@ import { site } from "@/lib/site"
 import JsonLd from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
-  title: "Contact — Tell Us What You Are Building",
+  title: "Contact: Tell Us What You Are Building",
   description:
-    "Tell us about your software product, AI opportunity, or platform challenge and we'll help identify a practical next step. Get in touch with Aillegent.",
+    "Tell us about your software product, AI opportunity, or platform challenge and we will help identify a practical next step. Get in touch with Aillegent.",
   alternates: { canonical: "/contact" },
 }
 
@@ -41,7 +41,7 @@ export default function ContactPage() {
               <span>Contact</span>
             </div>
             <h1>
-              Tell us what you are building—or what is <span className="grad-text">holding it back</span>
+              Tell us what you are building-or what is <span className="grad-text">holding it back</span>
             </h1>
             <p className="lead">
               Share the product, the AI opportunity, the platform challenge, or the delivery bottleneck you want to

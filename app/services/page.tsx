@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Services | Product, AI, Cloud, Quality & Cost",
   description:
-    "End-to-end software development services — product engineering, applied AI, data engineering, cloud, quality, and cost optimisation for teams ready to scale.",
+    "End-to-end software development services: product engineering, applied AI, data engineering, cloud, quality, and cost optimisation for teams ready to scale.",
   alternates: { canonical: "/services" },
 }
 
@@ -126,7 +126,7 @@ export default function ServicesPage() {
               Focused engagements that <span className="grad-text">combine into a lifecycle</span>
             </h2>
             <p className="lead">
-              Each capability stands on its own — or works alongside the others across discovery, build, deployment,
+              Each capability stands on its own, or works alongside the others across discovery, build, deployment,
               quality, and operations.
             </p>
           </div>
@@ -248,7 +248,7 @@ export default function ServicesPage() {
               <p className="lead u-mt-18">
                 The right solution may be a focused monolith, a microservice platform, a domain-driven design, an
                 event-driven system, or a distributed-transaction architecture. We select the approach based on
-                operational needs, product maturity, team capability, and future scale — not trend alone.
+                operational needs, product maturity, team capability, and future scale, not trend alone.
               </p>
               <div className="tags u-mt-26">
                 <span className="tag">Monolith</span>
@@ -283,7 +283,7 @@ export default function ServicesPage() {
                 <text x="258" y="90" className="m-muted" fontFamily="'IBM Plex Mono',monospace" fontSize="10.5px">
                   Microservices
                 </text>
-                {/* selected fit — highlighted */}
+                {/* selected fit - highlighted */}
                 <rect x="240" y="114" width="148" height="36" rx="10" className="m-tile" />
                 <circle cx="374" cy="132" r="5" className="m-pulse" />
                 <text
@@ -309,7 +309,7 @@ export default function ServicesPage() {
                 <path fill="none" stroke="#8296AA59" strokeWidth="1.5" d="M140 146 C192 130 200 98 240 86" />
                 <path fill="none" stroke="#8296AA59" strokeWidth="1.5" d="M140 146 C192 166 200 188 240 178" />
                 <path fill="none" stroke="#8296AA59" strokeWidth="1.5" d="M140 146 C192 182 200 230 240 224" />
-                {/* selected connector — bold gradient */}
+                {/* selected connector - bold gradient */}
                 <path className="m-stroke" data-draw d="M140 146 C194 146 198 132 240 132" />
               </svg>
             </div>
@@ -374,10 +374,10 @@ export default function ServicesPage() {
               <h2 className="balance">
                 Not sure <span className="grad-text">where to start?</span>
               </h2>
-              <p>One focused capability or the whole lifecycle — you don&apos;t need the full answer before reaching out.</p>
+              <p>One focused capability or the whole lifecycle, and you do not need the full answer before reaching out.</p>
               <div className="btn-row u-jc-center">
                 <Link href="/contact" className="btn btn-primary btn-lg">
-                  Let&apos;s figure it out together <span className="arw">→</span>
+                  Let us figure it out together <span className="arw">→</span>
                 </Link>
               </div>
             </div>

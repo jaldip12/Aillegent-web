@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Industries",
   description:
-    "Domain-driven software development across finance, intellectual property, advertising technology, and recruitment — engineering shaped by how your industry works.",
+    "Domain-driven software development across finance, intellectual property, advertising technology, and recruitment: engineering shaped by how your industry works.",
   alternates: { canonical: "/industries" },
 }
 
@@ -106,7 +106,7 @@ export default function IndustriesPage() {
             </h2>
             <p className="lead">
               We work where business processes, data, compliance, reliability, and operational speed all matter. Our
-              approach starts with the domain — not just the technology choice.
+              approach starts with the domain, not just the technology choice.
             </p>
           </div>
           <div className="ind-list" data-animate>
@@ -115,18 +115,14 @@ export default function IndustriesPage() {
               <span className="t">Finance</span>
               <span className="arw">→</span>
             </Link>
-            <Link className="ind-item" href="/industries/intellectual-property">
-              <span className="n">02</span>
-              <span className="t">Intellectual Property</span>
-              <span className="arw">→</span>
-            </Link>
+            {/* Intellectual Property temporarily hidden - restore this card + renumber below to bring it back */}
             <Link className="ind-item" href="/industries/advertising-technology">
-              <span className="n">03</span>
+              <span className="n">02</span>
               <span className="t">Advertising Technology</span>
               <span className="arw">→</span>
             </Link>
             <Link className="ind-item" href="/industries/recruitment">
-              <span className="n">04</span>
+              <span className="n">03</span>
               <span className="t">Recruitment</span>
               <span className="arw">→</span>
             </Link>
@@ -143,7 +139,7 @@ export default function IndustriesPage() {
                 Your domain, <span className="grad-text">taken seriously</span>
               </h2>
               <p>
-                Tell us about the operating model, the constraints, and the details that matter — we will meet you at
+                Tell us about the operating model, the constraints, and the details that matter. We will meet you at
                 that level.
               </p>
               <div className="btn-row u-jc-center">

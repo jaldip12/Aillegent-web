@@ -5,7 +5,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Product Engineering | Custom Software & Architecture",
   description:
-    "Custom software product development — platforms, backends, and APIs engineered around your business requirements, from architecture through to production.",
+    "Custom software product development: platforms, backends, and APIs engineered around your business requirements, from architecture through to production.",
   alternates: { canonical: "/services/product-engineering" },
 }
 
@@ -30,7 +30,7 @@ export default function ProductEngineeringPage() {
             serviceType: "Product Engineering",
             url: "https://aillegent.com/services/product-engineering",
             description:
-              "Turn product requirements into software people can rely on — custom development, frontend and backend engineering, APIs, architecture, and production readiness.",
+              "Turn product requirements into software people can rely on: custom development, frontend and backend engineering, APIs, architecture, and production readiness.",
             provider: { "@type": "Organization", "@id": "https://aillegent.com/#organization" },
             areaServed: "Worldwide",
           },
@@ -186,7 +186,7 @@ export default function ProductEngineeringPage() {
               Choose the architecture that <span className="grad-text">fits the business</span>
             </h2>
             <p className="lead">
-              We select the approach based on operational needs, product maturity, team capability, and future scale —
+              We select the approach based on operational needs, product maturity, team capability, and future scale,
               not trend alone.
             </p>
           </div>

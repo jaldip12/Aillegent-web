@@ -41,7 +41,7 @@ export default function BrandPyramid() {
         <div className="pin-grid">
           <div className="pin-copy">
             <h2 className="h2 balance u-mb-34">
-              How we&apos;re <span className="grad-text">built</span>
+              How we are <span className="grad-text">built</span>
             </h2>
             <div className="pin-steps">
               <div className="pin-step" data-i="0">
@@ -52,12 +52,12 @@ export default function BrandPyramid() {
               <div className="pin-step" data-i="1">
                 <span className="lbl">Like a system integrator</span>
                 <h3>Enterprise-grade execution</h3>
-                <p>Delivery maturity, platform partnerships, and compliance thinking — so it holds up at scale and in production.</p>
+                <p>Delivery maturity, platform partnerships, and compliance thinking, so it holds up at scale and in production.</p>
               </div>
               <div className="pin-step" data-i="2">
                 <span className="lbl">Like an engineering company</span>
                 <h3>Engineering-first culture</h3>
-                <p>Modern capabilities, lean hands-on teams, and engineering DNA that ships — and keeps shipping.</p>
+                <p>Modern capabilities, lean hands-on teams, and engineering DNA that ships, and keeps shipping.</p>
               </div>
             </div>
           </div>
@@ -78,8 +78,8 @@ export default function BrandPyramid() {
                 </linearGradient>
               </defs>
               <g className="pyr-tier" data-t="0">
-                <path d="M230 26 L279.5 137 L180.5 137 Z" fill="url(#pt)" />
-                <text className="pyr-label" x="230" y="128" textAnchor="middle" fontSize="12.5px">Product-led</text>
+                <path d="M230 22 L286 137 L174 137 Z" fill="url(#pt)" />
+                <text className="pyr-label pyr-label--top" x="230" y="130" textAnchor="middle">Product-led</text>
               </g>
               <g className="pyr-tier" data-t="1">
                 <path d="M177.8 143 L282.2 143 L337.4 267 L122.6 267 Z" fill="url(#pm)" />

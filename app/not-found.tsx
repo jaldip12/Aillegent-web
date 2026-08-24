@@ -17,7 +17,7 @@ export default function NotFound() {
             This page has <span className="grad-text">moved on</span>
           </h1>
           <p className="lead">
-            The page you were looking for isn&apos;t here. Let&apos;s get you back to something useful.
+            The page you were looking for is not here. Let us get you back to something useful.
           </p>
           <div className="btn-row u-mt-28">
             <Link href="/" className="btn btn-primary btn-lg">

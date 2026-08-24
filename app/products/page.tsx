@@ -4,9 +4,9 @@ import Image from "next/image"
 import JsonLd from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
-  title: "Products — Shilp, Eventik & Permit360",
+  title: "Products: Shilp, Eventik & Permit360",
   description:
-    "Software Aillegent builds, owns, and runs — Shilp for cinematic AI prompts, Eventik for AI photo delivery, and Permit360 for electronic permit-to-work.",
+    "Software Aillegent builds, owns, and runs: Shilp for cinematic AI prompts, Eventik for AI photo delivery, and Permit360 for electronic permit-to-work.",
   alternates: { canonical: "/products" },
 }
 
@@ -38,7 +38,7 @@ export default function ProductsPage() {
               Software we <span className="grad-text">build, own, and run</span>
             </h1>
             <p className="lead">
-              Alongside client engineering, Aillegent builds its own products — the clearest proof of how we design,
+              Alongside client engineering, Aillegent builds its own products, the clearest proof of how we design,
               ship, and operate software in production.
             </p>
           </div>
@@ -130,7 +130,7 @@ export default function ProductsPage() {
                 <h3>Eventik</h3>
                 <p>
                   <strong>AI photo delivery and studio management, in one place.</strong> Eventik is the complete
-                  platform for event photographers and studios — guests find their own photos with a single selfie, and
+                  platform for event photographers and studios: guests find their own photos with a single selfie, and
                   the business runs from one login.
                 </p>
                 <Link className="btn-text" href="/products/eventik">
@@ -168,7 +168,7 @@ export default function ProductsPage() {
                 <h3>Permit360</h3>
                 <p>
                   <strong>The electronic work permit system for modern plants.</strong> Permit360 replaces paper permits
-                  and email approvals with one cloud-based, auditable permit-to-work platform — built for chemical,
+                  and email approvals with one cloud-based, auditable permit-to-work platform, built for chemical,
                   pharma, and manufacturing sites.
                 </p>
                 <Link className="btn-text" href="/products/permit360">
@@ -189,7 +189,7 @@ export default function ProductsPage() {
                 Want a <span className="grad-text">closer look</span> at any of them?
               </h2>
               <p>
-                Request a walkthrough and we will show you the product on a real example — your use case, not a canned
+                Request a walkthrough and we will show you the product on a real example: your use case, not a canned
                 demo.
               </p>
               <div className="btn-row u-jc-center">

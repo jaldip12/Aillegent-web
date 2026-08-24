@@ -6,7 +6,7 @@ import JsonLd from "@/components/seo/JsonLd"
 export const metadata: Metadata = {
   title: "Advertising Technology | Industries",
   description:
-    "Custom software for advertising technology — campaign systems, monitoring, and performance analysis across Google, Meta, and Bing channels.",
+    "Custom software for advertising technology campaign systems, monitoring, and performance analysis across Google, Meta, and Bing channels.",
   alternates: { canonical: "/industries/advertising-technology" },
 }
 
@@ -111,7 +111,7 @@ export default function AdvertisingTechnologyIndustryPage() {
               <span className="cn">04</span>
               <h3>Conversion analysis</h3>
               <p>
-                Structure conversion-related outcomes so marketing and operations teams can see what is contributing to
+                Structure conversion related outcomes so marketing and operations teams can see what is contributing to
                 results.
               </p>
             </article>
@@ -122,7 +122,7 @@ export default function AdvertisingTechnologyIndustryPage() {
               <span className="cn">05</span>
               <h3>CPC and CPA visibility</h3>
               <p>
-                Bring cost-per-click and cost-per-acquisition into everyday decisions, so spend efficiency stays visible.
+                Bring cost-per-click and cost per acquisition into everyday decisions, so spend efficiency stays visible.
               </p>
             </article>
           </div>
