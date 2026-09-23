@@ -276,7 +276,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== INDUSTRIES ===== */}
+      {/* ===== INDUSTRIES (temporarily hidden site-wide - see app/industries/page.tsx) ===== */}
+      {/*
       <section className="section" id="industries">
         <div className="wrap ind-wrap">
           <div className="section-head" data-animate>
@@ -290,12 +291,12 @@ export default function HomePage() {
           </div>
           <div className="ind-list" data-animate>
             <Link className="ind-item" href="/industries/finance"><span className="n">01</span><span className="t">Finance</span><span className="arw">→</span></Link>
-            {/* Intellectual Property temporarily hidden - restore this card + renumber below to bring it back */}
             <Link className="ind-item" href="/industries/advertising-technology"><span className="n">02</span><span className="t">Advertising Technology</span><span className="arw">→</span></Link>
             <Link className="ind-item" href="/industries/recruitment"><span className="n">03</span><span className="t">Recruitment</span><span className="arw">→</span></Link>
           </div>
         </div>
       </section>
+      */}
 
       {/* ===== TESTIMONIALS ===== */}
       <section className="section" id="voices">

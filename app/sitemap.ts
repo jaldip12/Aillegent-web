@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next"
-import { site, services, products, industries } from "@/lib/site"
+import { site, services, products } from "@/lib/site"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -7,12 +7,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/services",
     "/products",
-    "/industries",
     "/about",
     "/contact",
     ...services.map((s) => `/services/${s.slug}`),
     ...products.map((p) => `/products/${p.slug}`),
-    ...industries.map((i) => `/industries/${i.slug}`),
+    // "/industries" + children temporarily hidden - see app/industries/page.tsx
   ]
 
   return routes.map((path) => ({

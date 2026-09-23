@@ -15,7 +15,8 @@ export const site = {
 export const nav = [
   { label: "Services", href: "/services" },
   { label: "Products", href: "/products" },
-  { label: "Industries", href: "/industries" },
+  // temporarily hidden - see app/industries/page.tsx
+  // { label: "Industries", href: "/industries" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ] as const
@@ -35,6 +36,8 @@ export const products = [
   { slug: "permit360", title: "Permit360" },
 ] as const
 
+// Industries section is temporarily hidden site-wide.
+// Data kept intact for restore; nothing consumes it while hidden.
 export const industries = [
   { slug: "finance", title: "Finance" },
   // temporarily hidden - see app/industries/intellectual-property/page.tsx

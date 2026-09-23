@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
+import { notFound } from "next/navigation"
 import JsonLd from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
@@ -8,9 +9,12 @@ export const metadata: Metadata = {
   description:
     "Custom software for finance teams: bring documents, data, deadlines, and processes into structured, dependable systems built around your domain.",
   alternates: { canonical: "/industries/finance" },
+  robots: { index: false, follow: false },
 }
 
+// Temporarily disabled - remove this call to bring the page back
 export default function FinanceIndustryPage() {
+  notFound()
   return (
     <>
       <JsonLd

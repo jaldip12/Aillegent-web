@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import Image from "next/image"
+import { notFound } from "next/navigation"
 import JsonLd from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
@@ -8,9 +9,12 @@ export const metadata: Metadata = {
   description:
     "Custom software for advertising technology campaign systems, monitoring, and performance analysis across Google, Meta, and Bing channels.",
   alternates: { canonical: "/industries/advertising-technology" },
+  robots: { index: false, follow: false },
 }
 
+// Temporarily disabled - remove this call to bring the page back
 export default function AdvertisingTechnologyIndustryPage() {
+  notFound()
   return (
     <>
       <JsonLd

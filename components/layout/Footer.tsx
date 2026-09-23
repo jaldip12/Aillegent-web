@@ -34,7 +34,8 @@ export default function Footer() {
             <h4>Explore</h4>
             <Link href="/services">Services</Link>
             <Link href="/products">Products</Link>
-            <Link href="/industries">Industries</Link>
+            {/* temporarily hidden - see app/industries/page.tsx */}
+            {/* <Link href="/industries">Industries</Link> */}
           </div>
           <div className="foot-col">
             <h4>Company</h4>

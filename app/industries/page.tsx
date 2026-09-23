@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
+import { notFound } from "next/navigation"
 import JsonLd from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
@@ -7,9 +8,12 @@ export const metadata: Metadata = {
   description:
     "Domain-driven software development across finance, intellectual property, advertising technology, and recruitment: engineering shaped by how your industry works.",
   alternates: { canonical: "/industries" },
+  robots: { index: false, follow: false },
 }
 
+// Temporarily disabled - remove this call to bring the page back
 export default function IndustriesPage() {
+  notFound()
   return (
     <>
       <JsonLd
