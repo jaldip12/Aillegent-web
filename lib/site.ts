@@ -1,6 +1,6 @@
 export const site = {
   name: "Aillegent",
-  url: "https://aillegent.com",
+  url: "https://www.aillegent.com",
   tagline: "Product Engineering, AI, Cloud & Quality",
   description:
     "Aillegent is a custom software development company: product engineering, applied AI, data, cloud, quality, and cost optimisation, from rapid MVP to production-scale.",
