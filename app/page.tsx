@@ -267,9 +267,9 @@ export default function HomePage() {
               </div>
               <div className="prod-body">
                 <span className="prod-tag">Industrial EHS</span>
-                <h3>Permit360</h3>
-                <p>The electronic permit-to-work system for modern plants: configurable permits, approvals, and live visibility.</p>
-                <Link className="btn-text" href="/products/permit360">Explore Permit360 <span className="arw">→</span></Link>
+                <h3>SafetySetu</h3>
+                <p>One safety platform for the whole plant: electronic permits and lockout/tagout, plus contractors, visitors and the gate.</p>
+                <Link className="btn-text" href="/products/safetysetu">Explore SafetySetu <span className="arw">→</span></Link>
               </div>
             </article>
           </div>

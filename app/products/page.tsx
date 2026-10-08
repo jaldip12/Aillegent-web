@@ -4,9 +4,9 @@ import Image from "next/image"
 import JsonLd from "@/components/seo/JsonLd"
 
 export const metadata: Metadata = {
-  title: "Products: Shilp, Eventik & Permit360",
+  title: "Products: Shilp, Eventik & SafetySetu",
   description:
-    "Software Aillegent builds, owns, and runs: Shilp for cinematic AI prompts, Eventik for AI photo delivery, and Permit360 for electronic permit-to-work.",
+    "Software Aillegent builds, owns, and runs: Shilp for cinematic AI prompts, Eventik for AI photo delivery, and SafetySetu for industrial permits and plant access.",
   alternates: { canonical: "/products" },
 }
 
@@ -165,14 +165,14 @@ export default function ProductsPage() {
               </div>
               <div className="prod-body">
                 <span className="prod-tag">Industrial EHS</span>
-                <h3>Permit360</h3>
+                <h3>SafetySetu</h3>
                 <p>
-                  <strong>The electronic work permit system for modern plants.</strong> Permit360 replaces paper permits
-                  and email approvals with one cloud-based, auditable permit-to-work platform, built for chemical,
-                  pharma, and manufacturing sites.
+                  <strong>One safety platform for the whole plant.</strong> SafetySetu brings together Permit for
+                  electronic work permits and lockout/tagout, and EntryHub for contractors, visitors and the gate,
+                  replacing paper and email with one auditable cloud system.
                 </p>
-                <Link className="btn-text" href="/products/permit360">
-                  Explore Permit360 <span className="arw">→</span>
+                <Link className="btn-text" href="/products/safetysetu">
+                  Explore SafetySetu <span className="arw">→</span>
                 </Link>
               </div>
             </article>

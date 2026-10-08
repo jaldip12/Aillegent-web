@@ -203,8 +203,8 @@ export default function EventikPage() {
         <div className="wrap bridge-inner" data-animate>
           <div>
             <span className="b-kick">Up next</span>
-            <Link className="b-link" href="/products/permit360">
-              Permit360 <span className="arw">→</span>
+            <Link className="b-link" href="/products/safetysetu">
+              SafetySetu <span className="arw">→</span>
             </Link>
           </div>
           <p className="b-cta">

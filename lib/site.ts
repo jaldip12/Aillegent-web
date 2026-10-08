@@ -33,7 +33,7 @@ export const services = [
 export const products = [
   { slug: "shilp", title: "Shilp" },
   { slug: "eventik", title: "Eventik" },
-  { slug: "permit360", title: "Permit360" },
+  { slug: "safetysetu", title: "SafetySetu" },
 ] as const
 
 // Industries section is temporarily hidden site-wide.
