@@ -34,3 +34,7 @@ Thumbs.db
 
 # archives / scratch
 *.zip
+
+# sales / design source assets (kept locally, not in the repo)
+*.pptx
+*.key
